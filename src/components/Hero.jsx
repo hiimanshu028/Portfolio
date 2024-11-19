@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import { clipPath } from "framer-motion/client"
 import { HERO_CONTENT } from "../constants"
-import jason from "../assets/jason-root.webp"
+import jason  from "../assets/jason-root.webp"
 
 
 const textVariants = {
