@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import { clipPath } from "framer-motion/client"
 import { HERO_CONTENT } from "../constants"
-import jason  from "../assets/jason-root.webp"
+import Himanshu  from "../assets/himanshu.jpg"
 
 
 const textVariants = {
@@ -20,12 +20,14 @@ const containerVariants = {
 }
 
 const imageVariants = {
-    hidden: { clipPath: "inset(0  50% 0 50%" },
+    hidden: {
+      clipPath: "inset(0 50% 0 50%)"
+    },
     visible: {
-        clipPath: "insert(0 0% 0 0%",
-        transition: { duration: 1.2, ease: "easeInOut" }
+      clipPath: "inset(0 0% 0 0%)",
+      transition: { duration: 1.2, ease: "easeInOut", delay: 0.5 } // Add a delay
     }
-}
+  };
 
 
 const Hero = () => {
@@ -68,7 +70,7 @@ const Hero = () => {
                 initial="hidden"
                 animate="visible"
                 variants={imageVariants}>
-                <img src={jason} alt="Jason Root" width={650} height={650}
+                <img src={Himanshu} alt="Himanshu Ahirwar" width={650} height={650}
                     className="rounded-3xl" />
             </motion.div>
         </div>

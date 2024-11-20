@@ -23,9 +23,9 @@ export const LINKS = [
 export const HERO_CONTENT = {
   greeting: "Hey there! 🖐️",
   introduction:
-    "I’m Jason Root, a creative frontend developer, crafting immersive and intuitive web experiences.",
+    "I’m Himanshu Ahirwar, a creative frontend developer, crafting immersive and intuitive web experiences.",
   description:
-    "I’m currently helping businesses bring their visions to life through interactive digital solutions.",
+    "I’m currently learning Full-stack for building digital solutions..",
   resumeLinkText: "Download Resume",
   resumeLink: "/resume.pdf",
 };
@@ -35,7 +35,7 @@ export const PROJECTS = [
     name: "Streamerzz",
     description: "Live stream management tool for content creators",
     image: projects1,
-    link: "https://github.com/your-github/streamerzz",
+    link: "https://github.com/hiimanshu028",
   },
   {
     name: "NutriTrack",

@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="flex justify-between items-centre max-w-6xl mx-auto md:my-2 bg-stone-950/30 p-4 md:rounded-xl backdrop-blur-lg">
         <div className="text-white font-semibold text-lg uppercase">
           <a href="/">
-          Himanshu Ahirwar
+          Himanshu 
           </a>
         </div>
 
