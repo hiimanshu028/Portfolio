@@ -39,11 +39,11 @@ const Testimonial = () => {
                             <div>
                                 <h2 className="text-lg font-semibold">
                                     {testimonal.name}</h2>
-                                <p className="text-sm font-light">{testimonal, title}</p>
+                                <p className="text-sm font-light">{testimonal. title}</p>
                             </div>
                         </div>
 
-                        <p className="leading-relaxed">{testimonal, feedback}</p>
+                        <p className="leading-relaxed">{testimonal. feedback}</p>
 
                     </motion.div>
                 ))}

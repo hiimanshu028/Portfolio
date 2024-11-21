@@ -1,4 +1,3 @@
-import { link } from "framer-motion/client"
 import { PROJECTS } from "../constants"
 
 const Projects = () => {

@@ -15,11 +15,11 @@ const App = () => {
       <main className="antialiased overflow-x-hidden max-w-7xl mx-auto relative z-10">
         <Navbar />
         <Hero />
-        
+        <Projects />
         <About />
         <Experience />
         <Testimonial />
-        <Contacts/>
+        
       </main>
     </>
   )
