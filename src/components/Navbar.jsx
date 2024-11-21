@@ -14,13 +14,13 @@ const Navbar = () => {
       <div className="flex justify-between items-centre max-w-6xl mx-auto md:my-2 bg-stone-950/30 p-4 md:rounded-xl backdrop-blur-lg">
         <div className="text-white font-semibold text-lg uppercase">
           <a href="/">
-          Himanshu 
+            Himanshu
           </a>
         </div>
 
         <div className="hidden md:flex space-x-8">
           {LINKS.map((link, index) => (
-            <a href={link.href} key={index}            className="text-white hover:text-stone-400 transition duration-300">
+            <a href={link.href} key={index} className="text-white hover:text-stone-400 transition duration-300">
               {link.label}
             </a>
           ))}
