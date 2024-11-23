@@ -1,6 +1,7 @@
 import { RiCloseFill, RiMenu3Fill } from "@remixicon/react"
 import { useState } from "react"
 import { LINKS } from "../constants"
+import logo from "../assets/logo.png"
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -13,9 +14,10 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full z-50">
       <div className="flex justify-between items-centre max-w-6xl mx-auto md:my-2 bg-stone-950/30 p-4 md:rounded-xl backdrop-blur-lg">
         <div className="text-white font-semibold text-lg uppercase">
-          <a href="/">
-            Himanshu
-          </a>
+        <img src={logo} alt="Himanshu Ahirwar" width={50} height={50}
+                        className="rounded-3xl" />
+            
+        
         </div>
 
         <div className="hidden md:flex space-x-8">

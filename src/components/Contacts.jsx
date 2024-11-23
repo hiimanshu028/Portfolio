@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import { CONTACT_CONTENT } from "../constants"
-import { RiGithubFill, RiTwitterXFill } from "@remixicon/react"
+import { RiGithubFill, RiLinkedinBoxFill, RiLinkedinBoxLine, RiLinkedinFill, RiLinkedinLine, RiTwitterXFill } from "@remixicon/react"
 
 const textVarients = {
     hidden: { opacity: 0, y: 20 },
@@ -68,7 +68,7 @@ const Contacts = () => {
                             ? RiTwitterXFill
                             : link.icon === "RiGithubFill"
                                 ? RiGithubFill
-                                : RiTwitterXFill;
+                                : RiLinkedinFill;
                     return (
                         <motion.a key={link.platform}
                             href={link.url}

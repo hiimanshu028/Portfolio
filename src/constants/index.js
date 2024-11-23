@@ -21,11 +21,11 @@ export const LINKS = [
 ];
 
 export const HERO_CONTENT = {
-  greeting: "Hey there! 🖐️",
+  greeting: "Hi Everyone!👋",
   introduction:
-    "I’m Himanshu Ahirwar, a creative frontend developer, crafting immersive and intuitive web experiences.",
+    "I’m Himanshu Ahirwar, a full-stack developer passionate about crafting user-friendly and visually appealing web applications.",
   description:
-    "I’m currently learning Full-stack for building digital solutions..",
+    "I'm open to job offers and eager to start my professional journey, bringing fresh ideas and innovative solutions to your team.",
   resumeLinkText: "Download Resume",
   resumeLink: "/resume.pdf",
 };
@@ -72,7 +72,7 @@ export const PROJECTS = [
 
 export const ABOUT_CONTENT = {
   paragraphs: [
-    "I am a dedicated frontend developer with a passion for building modern web applications that are both functional and aesthetically pleasing. Over the years, I have worked on numerous projects ranging from single-page applications to complex multi-tiered systems, always ensuring high performance and seamless user experiences.",
+    "I am a dedicated frontend developer with a passion for building modern web applications that are both functional and aesthetically pleasing. Through my coursework and personal projects, I've gained a solid understanding of web development principles and am eager to apply them to practical projects.",
     "I specialize in using technologies like React, Next.js, and Tailwind CSS to create responsive and scalable interfaces. My focus is on writing clean, maintainable code while collaborating with cross-functional teams to deliver projects that meet both business goals and user needs. I thrive in environments that challenge me to continuously learn and grow.",
   ],
 };
@@ -99,12 +99,12 @@ export const EXPERIENCES = [
     ],
   },
   {
-    yearRange: "2018 — 2021",
-    title: "Frontend Developer at Creative Solutions",
-    location: "London, UK",
+    yearRange: "2020 — 2024",
+    title: "Jabalpur Engineering College",
+    location: "Jabalpur, M.P.",
     description: [
-      "Developed and maintained user interfaces for high-traffic websites.",
-      "Worked closely with designers to implement pixel-perfect designs.",
+      "Built dynamic, responsive, and accessible web applications using React, Next.js, and Tailwind CSS.",
+      "Spearheaded frontend optimization efforts, resulting in a 40% performance boost.",
       "Optimized websites for SEO and performance, resulting in a 30% increase in traffic.",
     ],
   },
@@ -159,26 +159,30 @@ export const CONTACT_CONTENT = {
   headline: "LET'S WORK ON SOMETHING GREAT",
   description:
     "I'm excited to collaborate on projects that push boundaries and create meaningful impact. Let's build something innovative and exceptional together.",
-  email: "jason@example.com",
+  email: "hiimanshu028@example.com",
   socialLinks: [
     {
       platform: "Twitter",
-      url: "https://twitter.com/yourprofile",
+      url: "https://twitter.com/hiimanshu028",
       ariaLabel: "Follow me on Twitter",
       icon: "RiTwitterXFill",
     },
     {
       platform: "GitHub",
-      url: "https://github.com/yourprofile",
+      url: "https://github.com/hiimanshu028",
       ariaLabel: "View my GitHub profile",
       icon: "RiGithubFill",
     },
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com/in/yourprofile",
+      url: "https://www.linkedin.com/in/hiimanshu028",
       ariaLabel: "Connect with me on LinkedIn",
       icon: "RiLinkedinFill",
     },
   ],
-  footerText: `© ${new Date().getFullYear()} Jason Root. All rights reserved.`,
+  footerText: `© ${new Date().getFullYear()} Himanshu Ahirwar. All rights reserved.`,
 };
+
+//"Developed and maintained user interfaces for high-traffic websites.",
+//"Worked closely with designers to implement pixel-perfect designs.",
+//"Optimized websites for SEO and performance, resulting in a 30% increase in traffic.",
