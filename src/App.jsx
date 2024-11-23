@@ -6,6 +6,7 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Testimonial from "./components/Testimonial"
+import { PROJECTS } from "./constants"
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
         <About />
         <Experience />
         <Testimonial />
-        
+        <Contacts />
       </main>
     </>
   )

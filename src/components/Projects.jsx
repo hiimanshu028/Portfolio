@@ -45,10 +45,7 @@ const Projects = () => {
               className="absolute inset-0 w-full h-full
                         object-cover transition-opacity duration-300"
             />
-            <div
-              className="relative z-20 p-6 flex flex-col
-                    justify-between h-full bg-black/30 text-white"
-            >
+            <div className="relative z-20 p-6 flex flex-col justify-between h-full bg-black/30 text-white">
               <h2 className="text-2xl font-medium mb-4">{project.name}</h2>
               <div className="flex flex-col justify-between">
                 <p className="mb-4 flex-grow text-2xl">{project.description}</p>

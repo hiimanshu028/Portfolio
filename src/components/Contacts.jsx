@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import { CONTACT_CONTENT } from "../constants"
-import { link } from "framer-motion/m"
+import { RiGithubFill, RiTwitterXFill } from "@remixicon/react"
 
 const textVarients = {
     hidden: { opacity: 0, y: 20 },
@@ -36,7 +36,7 @@ const Contacts = () => {
             <motion.h3
                 className="text-6xl md:text-8xl leading-none"
                 initial="hidden"
-                whileInView="visiible"
+                whileInView="visible"
                 custom={0.4}
                 variants={textVarients}>
                 {CONTACT_CONTENT.headline}
@@ -55,7 +55,7 @@ const Contacts = () => {
                 href={`mailto${CONTACT_CONTENT.email}`}
                 className="text-2xl md:text-3xl font-medium mt-8"
                 initial="hidden"
-                whilleInView="visiible"
+                whileInView="visible"
                 custom={0.8}
                 variants={textVarients}>
                 {CONTACT_CONTENT.email}
@@ -86,9 +86,9 @@ const Contacts = () => {
             </div>
 
             <motion.p
-                className="ttext-sm text-stone-400 mt-36"
+                className="text-sm text-stone-400 mt-36"
                 initial="hidden"
-                whileInView="visiblle"
+                whileInView="visible"
                 custom={0.6}
                 variants={textVarients}>
                 {CONTACT_CONTENT.footerText}
@@ -97,4 +97,4 @@ const Contacts = () => {
     )
 }
 
-export default Contacts
+export default Contacts;
