@@ -29,11 +29,11 @@ const Projects = () => {
       </h1>
       <div className="h-1 w-20 mb-8 bg-white"></div>
 
-      <div className="grid grid-cols-1 mb:grid-col-3 gap-6">
+      <div className="grid grid-cols-2 md:grid-col-3 gap-6">
         {PROJECTS.map((project, index) => (
           <motion.div
             key={index}
-            className="relative rounded-lg overflow-hidden h-[500px] transition transform"
+            className="relative rounded-lg overflow-hidden h-[35vh] transition transform"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -53,7 +53,7 @@ const Projects = () => {
                   href={project.link}
                   target="_blank"
                   rel="noopener norefferer"
-                  className="bg-white text-stone-900 rounded-full py-2 px-2 w-32 text-sm hover:bg-green-100 text-center"
+                  className="bg-white text-stone-900 rounded-full py-2 px-2 w-32 text-sm hover:bg-green-500 text-center"
                 ></a>
               </div>
             </div>
