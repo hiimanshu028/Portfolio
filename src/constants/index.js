@@ -68,7 +68,7 @@ export const EDUCATION = [
     yearRange: "2020 — 2024",
     title: "B.E. in Computer Science, Jabalpur Engineering College",
     location: "Jabalpur, M.P.",
-    description: ["Graduated with 68.5% marks."],
+    description: ["."],
   },
   {
     yearRange: "Jun 2022",
@@ -82,13 +82,13 @@ export const EDUCATION = [
     yearRange: "2019 — 2020",
     title: "Class 12th, Wisdom Valley Hr. Sec. School",
     location: "Jabalpur, M.P.",
-    description: ["Secured 57.8% marks."],
+    description: ["."],
   },
   {
     yearRange: "2017 — 2018",
     title: "Class 10th, Wisdom Valley Hr. Sec. School",
     location: "Jabalpur, M.P.",
-    description: ["Secured 72% marks."],
+    description: ["."],
   }
 ];
 
