@@ -66,7 +66,7 @@ export const PROJECTS = [
 export const EDUCATION = [
   {
     yearRange: "2020 — 2024",
-    title: "B.E. in Computer Science, Jabalpur Engineering College",
+    title: "B.Tech in Information Technology, Jabalpur Engineering College",
     location: "Jabalpur, M.P.",
     description: ["."],
   },
